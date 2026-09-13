@@ -28,3 +28,33 @@ textarea {
   border: 1pxsolid #ccc;
   border-radius: 4px;
 }
+nav{
+  display:flex;
+  gap:16px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+.cards-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card{
+  background-color: #f4f4f4;
+  padding: 16px;
+  border-radius: 8px;
+  flex: 1 2 150px;
+  min-width: 120px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
